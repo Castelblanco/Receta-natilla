@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.info{
+    width: 80%;
+    margin: auto;
+}
+
+.info > h2{
+    width: 100%;
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: 30px;
+}
+
+.info > p{
+    width: 70%;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.info > img{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.ingredientes{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.todos_ingredientes > h2{
+    font-size: 30px;
+}
+
+.todos_ingredientes > div{
+    display: flex;
+    margin-top: 30px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+.todos_ingredientes > div > p > span{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.tiempos{
+    display: block;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #555;
+}
+
+.preparacion{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+.preparacion_info{
+    margin: 10px 10px;
+    font-family: sans-serif;
+}
+
+.preparacion_info > b{
+    color: #888;
+}
+
+.instrucciones{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.instrucciones > h2{
+    font-size: 30px;
+}
+
+.instrucciones_pasos{
+    display: flex;
+    margin-top: 40px;
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 30px 10px 0;
+    font-size: 30px;
+    font-family: monospace;
+    background-color: #ff7700;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.pasos_info{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.dueño_receta{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #888;
+}
+
+.castel{
+    margin: 200px 0 30px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #999;
+}
+
+
+@media screen and (max-width:750px) {
+    
+    .info > h2{
+        font-size: 28px;
+    }
+
+    .info > p{
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .ingredientes{
+        display: block;
+    }
+
+    .tiempos{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 50px;
+        box-shadow: none;
+    }
+
+    .preparacion{
+        margin: 0;
+    }
+
+    .num{
+        font-size: 24px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .pasos_info{
+        width: 500px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    
+    input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+    }
+
+    .todos_ingredientes > div > p > span{
+        font-size: 15px;
+    }
+
+    .num{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:385px) {
+
+    .ingredientes{
+        width: 100%;
+    }
+
+    .todos_ingredientes{
+        margin-left: 30px;
+    }
+    
+    .tiempos{
+        margin-left: 30px;
+    }
+
+
+}
